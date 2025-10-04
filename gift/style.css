@@ -1,0 +1,61 @@
+p{
+    text-indent:2em;
+}
+body{
+ background-color: rgb(204, 167, 238);
+ max-width:1200px;
+  margin:auto;
+}
+header{
+    margin:0 auto 30px auto;
+}
+h1{
+    margin-left: 43%;
+    font-size: 2em;
+    font-family: "Microsoft YaHei";
+}
+h2{
+    margin-left: 50%;
+    font-family: "KaiTi";
+
+}
+nav{
+    margin-left: 38%;
+}
+#introduce-title{
+    text-indent: 15%;
+}
+.introduce{
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto 0 auto;
+    line-height: 30px;
+
+}
+section{
+    margin-top: 30px;
+    margin-left: 14%;
+}
+section ul{
+    list-style-type: square;
+}
+#music{
+    text-indent: 15%;
+}
+.music{
+    line-height: 40px;
+}
+#m1{margin-left: 15%;}
+#m2{margin-left: 20%;}
+#m3{margin-left: 25%;}
+#m4{margin-left: 20%;}
+#m5{margin-left: 15%;}
+
+#comments{
+    text-indent: 15%;
+}
+footer{
+    margin-left: 17%;
+    font-family:"Parisienne";
+    line-height: 20px;
+}
