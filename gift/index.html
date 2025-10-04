@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>了解下许嵩喵~</title>
+    <script>
+  // 检测到HTTPS加载困难时智能降级
+  if(location.protocol === 'https:' && navigator.userAgent.match(/Mobile/)){
+    setTimeout(() => {
+      if(document.readyState !== 'complete'){
+        location.href = 'http:' + location.href.substring(6);
+      }
+    }, 3000);
+  }
+</script>
 </head>
 <body>
     <header>
